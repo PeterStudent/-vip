@@ -1,0 +1,310 @@
+
+*
+{
+	
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.log{
+	width:170px;
+	height:38px;
+	line-height: 38px;
+	margin-right: 40px;
+	background-image: url(images/logo-vip.svg);
+	float: left;
+	margin-top: 21px;
+	cursor:pointer;//鼠标指着变成小手
+}
+
+.caidanzi{
+	list-style: none;
+	float: left;
+	margin-right: 30px;
+	font-size: 16px;
+	color: #000;
+	height: 80px;
+	line-height: 80px;
+	cursor:pointer;//鼠标指着变成小手
+}
+.caidanzi:hover{
+	color: #00a4ff;
+}
+
+.denglukuang{
+	height: 36px;
+	width: 100px;
+	text-align: center;
+	float: right;
+	margin-top: 22px;
+	cursor:pointer;//鼠标指着变成小手
+}
+.dengluzi{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+	font-size: 18px;
+	height: 36px;
+	line-height: 36px;
+	color: #00a4ff;
+	
+}
+.caidanzi:hover{		//鼠标放到上面更改样式
+	color: #00a4ff;
+	cursor:pointer;//鼠标指着变成小手
+}
+.denglukuang:hover{
+	background-color: #e5f6ff;//hover的背景颜色
+	border-radius:8px;//长方形框框变圆角
+}
+/* 以上是以上是头部的css */
+
+
+.adimg{
+	background-image: url(images/1555945277484_113569.png);
+	height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	cursor:pointer;//鼠标指着变成小手
+}
+.adimg:hover {
+    opacity:0.9;		//鼠标移上去,图片变亮
+}
+/* 以上是中间大图的css */
+
+
+.superhuiyuan{
+	height: 260px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.svip{
+	height: 258px;
+	width: 198px;
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	float: left;
+}
+.svip h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 48px;
+	color: #000;
+	font-weight:400;
+		margin-right: 4px;
+}
+.kaitong{
+	cursor:pointer;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #dab559;
+	margin: 0 auto;
+	border-radius:4px;//长方形框框变圆角
+	
+}
+.jiage{
+	margin-bottom: 51px;
+	color: #777;
+	font-size: 18px;
+	margin-right: 49px;
+}
+.jiage strong{
+	font-size: 30px;
+	color: #ff9805;
+	font-weight: 400;
+}
+.tequan{
+	height: 260px;
+	width: 196px;
+	text-align: center;
+	border-top: 1px solid  #f0f0f0; 
+	border-bottom:1px solid #f0f0f0; 
+	float: left;
+	
+}
+.tequan:hover{
+	
+	border-top: 5px solid  #dab559; 
+}
+#geli{
+	margin-left: 8px;
+	border-left: 1px solid  #f0f0f0; 
+}
+#you{
+	border-right: 1px solid  #f0f0f0; 
+}
+.inner{
+	margin:0 auto;
+	margin-top: 43px;
+	height: 197px;
+	width: 196px;
+	border-right: 1px solid #f0f0f0;
+	cursor:pointer;//鼠标指着变成小手
+}
+.rongliang{
+	width:172 px;
+	height: 30px;
+}
+.tupian{
+	height: 100px;
+	width: 100px;
+	margin-left: 51px;
+	background-image: url(images/page-vip-common-v3@2x.png);
+	background-size:504px 493px;
+	background-position:0px 0px;
+}
+.rongliang{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 19px;
+}
+.kongjian{
+	font-size: 18px;
+	color: #777;
+}
+
+.xin{		/*沾到了图片的上面*/
+	/*悬停在图片上方的效果不会写*/
+	position: absolute;
+    height: 26px;
+	width: 26px;
+	line-height: 26px;
+	top: 0;
+    background-color: #ff6428;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 116px;
+    margin-top: 609px;
+} 
+.xin2{
+	position: absolute;
+    height: 26px;
+	width: 26px;
+	line-height: 26px;
+	top: 0;
+    background-color: #ff6428;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 116px;
+    margin-top: 609px;
+} 
+/* 以上是svip介绍部分的css */
+
+.freemember{
+	height: 140px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+	
+}
+.free{
+	text-align: center;
+	height: 140px;
+	width: 196px;
+	border-top: 1px solid  #f0f0f0; 
+	border-bottom:1px solid #f0f0f0; 
+	float: left;
+}
+.freecaidan{
+	text-align: center;
+	height: 140px;
+	line-height: 140px;
+	width: 196px;
+	border-top: 1px solid  #f0f0f0; 
+	border-bottom:1px solid #f0f0f0; 
+	float: left;
+}
+.freeinner{
+	height: 60px;
+	width: 196px;
+	border-right: 1px solid #f0f0f0;
+	margin-top: 41px;
+}
+.freeliang{
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	
+	width: 194px;
+}
+.freekongjian{
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	
+	width: 194px;
+	color: #777;
+}
+.wutequan{
+	color:#b3b3b3;
+}
+/* 以上是免费用户部分的css */
+
+
+.wyfooter{
+	margin-top: 100px;
+	margin-bottom: 45px;
+}
+.content{
+	width: 818px;
+	margin:0 auto;
+}
+.friend-fref{
+	width: 818px;
+	height: 61px;
+	
+}
+.qq-icon{
+	width: 38px;
+	height: 38px;
+	background-image: url(images/page-vip-common-v3@2x.png);
+    background-position: -333px -404px;
+	display: block;
+	background-size: 504px 493px;
+	margin: 0 auto;
+}
+.friendlink{
+	text-decoration: none;
+	font-size: 12px;
+	width: 57px;
+	color: #74787c;
+	height: 61px;
+	float: left;
+	text-align: center;
+	margin-left: 59px;
+	cursor:pointer;//鼠标指着变成小手
+}
+.friendlink:hover {
+    opacity:0.8;		//鼠标移上去,图片变亮
+}
+/* 以上是友情链接部分css */
+
+.copyright{
+	
+	text-align:center;
+	margin-top: 40PX;
+	font-size: 12PX;
+	color: #74787c;
+	text-decoration: none;
+}
+.copyright a{
+	text-decoration: none;
+	color: #74787c;
+	margin-top: 3px;
+	line-height: 20px;
+}
